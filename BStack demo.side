@@ -1,0 +1,53 @@
+{
+  "id": "9b9d9d13-f600-4703-b175-a9866a7fbb4d",
+  "version": "2.0",
+  "name": "BStack demo",
+  "url": "https://bstackdemo.com",
+  "tests": [{
+    "id": "e09d0f53-858d-4a55-8882-bfbcabbe585d",
+    "name": "buy iphone 12",
+    "commands": [{
+      "id": "575c99b7-8df7-48b3-b1dd-3874211b466f",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6a32334f-4f1d-4f0b-8faa-c5cb4eb34e79",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x806",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2db7bf46-e408-4f17-8882-dc1e163f7ef9",
+      "comment": "",
+      "command": "click",
+      "target": "css=#\\31 > .shelf-item__buy-btn",
+      "targets": [
+        ["css=#\\31 > .shelf-item__buy-btn", "css:finder"],
+        ["xpath=//div[@id='1']/div[4]", "xpath:idRelative"],
+        ["xpath=//div[2]/div[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "306a1f2f-d97a-4b72-aaac-9615a8511285",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.shelf-item__details > .title",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "a6ba95f3-ab71-4411-a785-5cc0432e3630",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["e09d0f53-858d-4a55-8882-bfbcabbe585d"]
+  }],
+  "urls": ["https://bstackdemo.com/"],
+  "plugins": []
+}

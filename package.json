@@ -1,0 +1,13 @@
+{
+  "name": "selenium-ide-browserstack",
+  "version": "1.0.0",
+  "description": "browserstack sample repo for selenium-IDE project",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx browserstack-side-runner BStack\\ demo.side"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@maxmattone/browserstack-side-runner": "^2.0.0-beta.6"
+  }
+}
