@@ -8,6 +8,6 @@
   },
   "license": "ISC",
   "dependencies": {
-    "@maxmattone/browserstack-side-runner": "^2.0.0-beta.8"
+    "@maxmattone/browserstack-side-runner": "^2.0.0-beta.9"
   }
 }
