@@ -34,10 +34,10 @@
     }, {
       "id": "306a1f2f-d97a-4b72-aaac-9615a8511285",
       "comment": "",
-      "command": "assertElementPresent",
+      "command": "assertText",
       "target": "css=.shelf-item__details > .title",
       "targets": [],
-      "value": ""
+      "value": "iPhone 12"
     }]
   }],
   "suites": [{
