@@ -17,6 +17,7 @@ accessKey: YOUR_ACCESS_KEY
 # CI/CD or timestamp at the end of every build; otherwise tests from different
 # executions will be grouped together on BrowserStack
 buildName: browserstack-build
+buildIdentifier: ${DATE_TIME}
 # Use `projectName` to set the name of your project. Example, Marketing Website
 projectName: Selenium-IDE demo project
 # Use `framework` to set the framework of your project. Example, testng, cucumber, cucumber-testng
