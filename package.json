@@ -4,7 +4,7 @@
   "description": "browserstack sample repo for selenium-IDE project",
   "main": "index.js",
   "scripts": {
-    "test": "npx browserstack-side-runner BStack\\ demo.side"
+    "test": "npx browserstack-side-runner \"BStack demo.side\""
   },
   "license": "ISC",
   "dependencies": {
